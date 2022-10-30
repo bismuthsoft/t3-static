@@ -1,3 +1,20 @@
+# t3-static
+
+The purpose of this template is to provide a base to use the t3 app structure, with the new beta features of next.js version 13 on netlify for static sites. Only t3 options relevant to static front-end sites were chosen.
+
+includes:
+- tailwind
+
+excludes:
+- prisma
+- trpc
+- next-auth
+
+Next.js has been updated to version 13. The experimental app directory option is enabled, and the template has been updated to use this directory (located in `/src/app/`).
+
+below is the original create-t3-app readme:
+
+
 # Create T3 App
 
 This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
